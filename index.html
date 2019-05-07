@@ -2,230 +2,381 @@
 <html lang="en">
 
 <head>
-    <title>About Me</title>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Freelancer - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/nav-style.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="print.css" media="print">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
 </head>
 
-<body>
-    <!-- skip link -->
-    <a href="#main" class="skip">Skip to main</a>
-    <!-- start of header -->
-    <header id="header" class="header">
-        <nav class="navbar">
-            <span class="navbar-toggle" id="js-navbar-toggle">
-                <i id="symbol-toggle" class="fas fa-bars"></i>
-            </span>
-            <a href="#header" class="logo">
-                <div class="logo-container">
-                    <img class="logo" src="images/logo-no-font.png" alt="Company Logo">
-                    <h1 class="page-title">Web Dev I</h1>
-                </div>
-            </a>
-            <ul class="main-nav" id="js-menu">
-                <li>
-                    <a href="#main" class="nav-links">Main</a>
-                </li>
-                <li>
-                    <a href="#about-me" class="nav-links">About Me</a>
-                </li>
-                <li>
-                    <a href="#pictures" class="nav-links">My Photos</a>
-                </li>
-                <li>
-                    <a href="#story" class="nav-links">A Story</a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-links">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">About Me</a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Article</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container">
+            <img class="img-fluid mb-5 d-block mx-auto" src="img/portfolio/patseguin-med.jpg" alt="">
+            <h1 class="text-uppercase mb-0">Patrick Seguin</h1>
+            <hr class="star-light">
+            <h2 class="font-weight-light mb-0">Web Developer - Cat Owner - Programmer</h2>
+        </div>
     </header>
-    <!-- end of header -->
-    <!-- start of main content -->
-    <!--    why put tabindex of -1 on skiplink target -  https://axesslab.com/skip-links/ -->
-    <main id="main" tabindex="-1" class="main">
-        <!-- start of bio section -->
-        <section class="hero">
-            <div class="content">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/patseguin-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/patseguin-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/patseguin-small.jpg">
-                    <img class="my-picture" src="images/patseguin-xsmall.jpg" alt="This is a picture of me">
-                </picture>
-                <p class="my-name">Patrick Seguin</p>
-                <p class="my-location">Branchburg, NJ</p>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <i class="fas fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>s
+                        <img class="img-fluid" src="img/portfolio/cat-outside-med.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <i class="fas fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/cat-sitting-med.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <i class="fas fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/cat-sleeping-med.jpg" alt="">
+                    </a>
+                </div>
             </div>
-        </section>
-        <section id="about-me" class="about-me">
-            <div class="content">
-                <p class="iama">I want to be...</p>
-                <p class="my-info">A master coder</p>
-                <p class="iama">My favorite way to work is...</p>
-                <p class="my-info">At my desk with my cat sitting next to me</p>
-                <p class="iama">In my free time, I like to...</p>
-                <p class="my-info">Play games on my computer and watch youtube videos</p>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <i class="fas fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/cat2-sitting.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <i class="fas fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/cat2-sleeping.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <i class="fas fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/portfolio/cat2-window.jpg" alt="">
+                    </a>
+                </div>
             </div>
-        </section>
-        <!-- end of bio section -->
-        <div class="back-to-top">
-            <a href="#">Back to Top</a>
         </div>
-        <!-- start of photo gallery -->
-        <section id="pictures" class="gallery">
-            <h3>GALLERY</h3>
-            <figure>
-                <picture class="cat-sleeping">
-                    <source srcset="images/cat-sleeping-xsmall.jpg" media="(max-width: 639px)">
-                    <source srcset="images/cat-sleeping-small.jpg" media="(min-width: 640px) and (max-width: 939px)">
-                    <source srcset="images/cat-sleeping-med.jpg" media="(min-width: 940px) and (max-width: 1023px)">
-                    <source srcset="images/cat-sleeping-lrg.jpg" media="(min-width: 1024px)">
-                    <img src="images/cat-sleeping-small.jpg">
-                </picture>
-                <figcaption>An adorable cat sleeping on the couch</figcaption>
-            </figure>
-            <hr class="mobile-first">
-            <figure>
-                <picture class="cat-sitting">
-                    <source srcset="images/cat-sitting-xsmall.jpg" media="(max-width: 639px)">
-                    <source srcset="images/cat-sitting-small.jpg" media="(min-width: 640px) and (max-width: 939px)">
-                    <source srcset="images/cat-sitting-med.jpg" media="(min-width: 940px) and (max-width: 1023px)">
-                    <source srcset="images/cat-sitting-lrg.jpg" media="(min-width: 1024px)">
-                    <img src="images/cat-sitting-small.jpg">
-                </picture>
-                <figcaption>The same cat sitting on the counter</figcaption>
-            </figure>
-            <hr class="mobile-first">
-            <figure>
-                <picture class="cat-outside">
-                    <source srcset="images/cat-outside-xsmall.jpg" media="(max-width: 639px)">
-                    <source srcset="images/cat-outside-small.jpg" media="(min-width: 640px) and (max-width: 939px)">
-                    <source srcset="images/cat-outside-med.jpg" media="(min-width: 940px) and (max-width: 1023px)">
-                    <source srcset="images/cat-outside-lrg.jpg" media="(min-width: 1024px)">
-                    <img src="images/cat-outside-small.jpg">
-                </picture>
-                <figcaption>The cat outside on the front porch</figcaption>
-            </figure>
-        </section>
-        <!-- end of photo gallery -->
-        <div class="back-to-top">
-            <a href="#">Back to Top</a>
-        </div>
-        <hr class="mobile-first">
-        <!-- start of Sherlock Holmes story -->
-        <article id="story" class="story">
-            <div class="story-body">
-                <h1>An excerpt from The Life of Samuel Johnson</h1>
-                <p>And now I am to give a pretty full account of one of the most curious incidents in Johnson's life, of which he himself has made the following minute on this day: 'In my return from church, I was accosted by Edwards, an old fellow-collegian, who had not seen me since 1729. He knew me, and asked if I remembered one Edwards; I did not at first recollect the name, but gradually as we walked along, recovered it, and told him a conversation that had passed at an ale-house between us. My purpose is to continue our acquaintance.'
-
-                    It was in Butcher-row that this meeting happened. Mr. Edwards, who was a decent-looking elderly man in grey clothes, and a wig of many curls, accosted Johnson with familiar confidence, knowing who he was, while Johnson returned his salutation with a courteous formality, as to a stranger. But as soon as Edwards had brought to his recollection their having been at Pembroke-College together nine-and-forty years ago, he seemed much pleased, asked where he lived, and said he should be glad to see him in Bolt-court. EDWARDS. 'Ah, Sir! we are old men now.' JOHNSON. (who never liked to think of being old,) 'Don't let us discourage one another.' EDWARDS. 'Why, Doctor, you look stout and hearty, I am happy to see you so; for the news-papers told us you were very ill.' JOHNSON. 'Ay, Sir, they are always telling lies of US OLD FELLOWS.'
-
-                    Wishing to be present at more of so singular a conversation as that between two fellow-collegians, who had lived forty years in London without ever having chanced to meet, I whispered to Mr. Edwards that Dr. Johnson was going home, and that he had better accompany him now. So Edwards walked along with us, I eagerly assisting to keep up the conversation. Mr. Edwards informed Dr. Johnson that he had practised long as a solicitor in Chancery, but that he now lived in the country upon a little farm, about sixty acres, just by Stevenage in Hertfordshire, and that he came to London (to Barnard's Inn, No. 6), generally twice a week. Johnson appearing to me in a reverie, Mr. Edwards addressed himself to me, and expatiated on the pleasure of living in the country. BOSWELL. 'I have no notion of this, Sir. What you have to entertain you, is, I think, exhausted in half an hour.' EDWARDS. 'What? don't you love to have hope realized? I see my grass, and my corn, and my trees growing. Now, for instance, I am curious to see if this frost has not nipped my fruit-trees.' JOHNSON. (who we did not imagine was attending,) 'You find, Sir, you have fears as well as hopes.'--So well did he see the whole, when another saw but the half of a subject.
-
-                    When we got to Dr. Johnson's house, and were seated in his library, the dialogue went on admirably. EDWARDS. 'Sir, I remember you would not let us say PRODIGIOUS at College. For even then, Sir, (turning to me,) he was delicate in language, and we all feared him.' JOHNSON. (to Edwards,) 'From your having practised the law long, Sir, I presume you must be rich.' EDWARDS. 'No, Sir; I got a good deal of money; but I had a number of poor relations to whom I gave a great part of it.' JOHNSON. 'Sir, you have been rich in the most valuable sense of the word.' EDWARDS. 'But I shall not die rich.' JOHNSON. 'Nay, sure, Sir, it is better to LIVE rich than to DIE rich.' EDWARDS. 'I wish I had continued at College.' JOHNSON. 'Why do you wish that, Sir?' EDWARDS. 'Because I think I should have had a much easier life than mine has been. I should have been a parson, and had a good living</p>
-            </div>
-        </article>
-        <!-- end of Sherlock Holmes story -->
-        <section class="blog-1">
-            <h1>Advanced CSS Trick 1 - Dark and Light Themes</h1>
-            <p>In the past, almost every website only offered one color theme, and you had no choice in the matter. However, in recent years dark themes have become increasingly popular and most major websites now offer their own version of one. The logic behind this is quite simple: white text on a dark background is much easier on the eyes than dark text on a white background (especially at night), and arguably looks much nicer as well. Only Safari currently offers native support for dark themes, allowing you to use them as a default whenever possible. However, Chrome and Firefox are not far behind, and will be offering support in their next releases. This webpage takes advantage of that functionality, and will change looks in the latest version of Safari depending on your default theme choice. </p>
-        </section>
-        <section class="blog-2">
-            <h1>Advanced CSS Trick 2 - object-fit and object-position</h1>
-            <p>Positioning videos used to be very messy and require lots of JavaScript, but these days it's very easy and can be done through two CSS properties: object-fit and object-position. The video I will be using to demonstrate this was shot by me last summer, at Glacier National Park in Montana. It shows firefighting planes scooping up tons of water from Lake McDonald, then flying over to a nearby wildfire and dropping their load before flying back for more.</p>
-            <p>First, you will see the unmodified video.</p>
-            <video class="video-original" controls>
-                <source src=planes.mp4 type="video/mp4">
-            </video>
-            <p>Next we will see what happens when we change the size of the video container from the video's resolution of 1280x720.</p>
-            <video width="1000" height="800" class="video-contain" controls>
-                <source src="planes.mp4" type="video/mp4">
-            </video>
-            <p>Here we have specified "contain" value of the object-fit property - this option scales down the video to fit inside the new container while still maintaining the original aspect ratio. Next we will show off the other main value of object-fit, cover.</p>
-            <video width="1000" height="800" class="video-cover" controls>
-                <source src="planes.mp4" type="video/mp4">
-            </video>
-            <p>Here we have specified the "cover" value of the object-fit property - this option scales the video to fill the entire container while still maintaining the original aspect ratio, clipping the edges as necessary. You can see that the people on the left edge of the video are no longer visible. Next we will look at the object-position property.</p>
-            <video width="1400" height="840" class="video-position" controls>
-                <source src="planes.mp4" type="video/mp4">
-            </video>
-            <p>Here we are using the object-position property to center the video in the top its container. I used the "top" preset here, but you can put it in any position you want using exact X/Y coordinates or percentages.</p>
-        </section>
-    </main>
-    <!-- end of main content -->
-    <div class="back-to-top">
-        <a href="#">Back to Top</a>
-    </div>
-    <hr class="mobile-first">
-    <!-- start of contact form -->
-    <section id="contact" class="form-container">
-        <h1>Get in Touch</h1>
-        <br class="mobile-first"><br class="mobile-first">
-        <form method="POST" action="https://formspree.io/patseguin1@gmail.com">
-            <fieldset>
-                <legend>Please Feel Free to Contact Me</legend>
-                <label for="email">Email</label>
-                <br>
-                <input id="email" type="email" name="email" required aria-required="true" aria-invalid="true">
-                <br><br>
-
-                <label for="message">Message</label>
-                <br>
-                <textarea id="message" name="message"></textarea>
-                <br><br><br>
-                <fieldset>
-                    <legend>I would like a reply</legend>
-                    <input type="radio" id="reply-yes" name="reply" value="yes" checked>
-                    <label for="reply-yes">Yes</label>
-                    <br><br>
-                    <input type="radio" id="reply-no" name="reply" value="no">
-                    <label for="reply-no">No</label>
-                </fieldset>
-                <br><br>
-                <button type="submit">Send Message</button>
-            </fieldset>
-        </form>
     </section>
-    <!-- end of contact form -->
-    <!-- start of footer -->
-    <footer>
-        <br class="mobile-first"><br class="mobile-first">
-        <div class="content">
-            <div class="page-title">&copy; Patrick Seguin</div>
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-white">Samuel Johnson</h2>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p class="lead">And now I am to give a pretty full account of one of the most curious incidents in Johnson's life, of which he himself has made the following minute on this day: 'In my return from church, I was accosted by Edwards, an old fellow-collegian, who had not seen me since 1729. He knew me, and asked if I remembered one Edwards; I did not at first recollect the name, but gradually as we walked along, recovered it, and told him a conversation that had passed at an ale-house between us. My purpose is to continue our acquaintance.'</p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead">It was in Butcher-row that this meeting happened. Mr. Edwards, who was a decent-looking elderly man in grey clothes, and a wig of many curls, accosted Johnson with familiar confidence, knowing who he was, while Johnson returned his salutation with a courteous formality, as to a stranger. But as soon as Edwards had brought to his recollection their having been at Pembroke-College together nine-and-forty years ago, he seemed much pleased, asked where he lived, and said he should be glad to see him in Bolt-court. EDWARDS. 'Ah, Sir! we are old men now.' JOHNSON. (who never liked to think of being old,) 'Don't let us discourage one another.' EDWARDS. 'Why, Doctor, you look stout and hearty, I am happy to see you so; for the news-papers told us you were very ill.' JOHNSON. 'Ay, Sir, they are always telling lies of US OLD FELLOWS.'</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form method="POST" action="https://formspree.io/patseguin1@gmail.com">
+                        <fieldset>
+                            <legend>Please Feel Free to Contact Me</legend>
+                            <label for="email">Email</label>
+                            <br>
+                            <input id="email" type="email" name="email" required aria-required="true" aria-invalid="true">
+                            <br><br>
+
+                            <label for="message">Message</label>
+                            <br>
+                            <textarea id="message" name="message"></textarea>
+                            <br><br><br>
+                            <fieldset>
+                                <legend>I would like a reply</legend>
+                                <input type="radio" id="reply-yes" name="reply" value="yes" checked>
+                                <label for="reply-yes">Yes</label>
+                                <br><br>
+                                <input type="radio" id="reply-no" name="reply" value="no">
+                                <label for="reply-no">No</label>
+                            </fieldset>
+                            <br><br>
+                            <button type="submit">Send Message</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">Branchburg, NJ</p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Find My Projects</h4>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/patseguin1">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                    <p class="lead mb-0">Freelancer is a free to use, open source Bootstrap theme created by
+                        <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                </div>
+            </div>
         </div>
     </footer>
-    <div class="back-to-top">
-        <a href="#">Back to Top</a>
+
+    <div class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; Patrick Seguin 2019</small>
+        </div>
     </div>
-    <!-- end of footer -->
-    <br class="mobile-first"><br class="mobile-first">
-    <!-- start of javascript for nav toggle -->
-    <script>
-        let mainNav = document.getElementById('js-menu');
-        let navBarToggle = document.getElementById('js-navbar-toggle');
-        let symbolToggle = document.getElementById('symbol-toggle');
 
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
 
-        navBarToggle.addEventListener('click', function() {
-            mainNav.classList.toggle('active');
-            if (symbolToggle.classList.contains('fa-bars')) {
-                symbolToggle.classList.remove('fa-bars');
-                symbolToggle.classList.add('fa-times');
-            } else {
-                symbolToggle.classList.remove('fa-times');
-                symbolToggle.classList.add('fa-bars');
-            }
-        });
-    </script>
-    <!-- end of javascript for nav toggle -->
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+                <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">Cat Outside</h2>
+                        <hr class="star-dark mb-5">
+                        <img class="img-fluid mb-5" src="img/portfolio/cat-outside-med.jpg" alt="">
+                        <p class="mb-5">My first cat outside the house, on the steps of the front porch.</p>
+                        <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                            <i class="fa fa-close"></i>
+                            Close Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+                <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">Cat Sitting</h2>
+                        <hr class="star-dark mb-5">
+                        <img class="img-fluid mb-5" src="img/portfolio/cat-sitting-med.jpg" alt="">
+                        <p class="mb-5">My first cat sitting on the counter inside, ready to steal some food.</p>
+                        <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                            <i class="fa fa-close"></i>
+                            Close Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+                <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">Cat Sleeping</h2>
+                        <hr class="star-dark mb-5">
+                        <img class="img-fluid mb-5" src="img/portfolio/cat-sleeping-med.jpg" alt="">
+                        <p class="mb-5">My first cat sleeping on the couch downstairs, enjoying a nice long nap.</p>
+                        <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                            <i class="fa fa-close"></i>
+                            Close Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+                <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+                        <hr class="star-dark mb-5">
+                        <img class="img-fluid mb-5" src="img/portfolio/cat2-sitting-med.jpg" alt="">
+                        <p class="mb-5">My second cat sitting by the back door, waiting to be let out</p>
+                        <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                            <i class="fa fa-close"></i>
+                            Close Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+                <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+                        <hr class="star-dark mb-5">
+                        <img class="img-fluid mb-5" src="img/portfolio/cat2-sleeping-med.jpg" alt="">
+                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                        <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                            <i class="fa fa-close"></i>
+                            Close Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+                <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+                        <hr class="star-dark mb-5">
+                        <img class="img-fluid mb-5" src="img/portfolio/cat2-window-med.jpg" alt="">
+                        <p class="mb-5">My second cat sitting in the window, enjoying a beautiful view.</p>
+                        <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                            <i class="fa fa-close"></i>
+                            Close Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+
 </body>
 
 </html>
